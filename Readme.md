@@ -23,7 +23,7 @@ git config --list
 git init
 ```
 >[!NOTE]
->Otra fora de iniciar repositorio sería
+>Otra forma de iniciar el repositorio sería
 >```bash
 >git init --initial-branch=main
 >git init -b main
@@ -40,7 +40,7 @@ git status
 git add index.html
 ```
 >[!NOTE]
->Otra fora de agregar archivos al _staging area_
+>Otra forma de agregar archivos al _staging area_
 >```bash
 >git add .
 >```
@@ -101,7 +101,7 @@ git reset --soft head~1
 git reset --soft 964cca7 # indicar el hash del commit
 ```
 >[!NOTE]
->head~1 quiere decir un commit anterior head~2 dos commit atrás, etc.
+>`head~1` quiere decir un commit anterior `head~2` dos commit atrás, etc.
 >Al realizar el `--soft`borra el `commit`sin embargo todas las modificaciones se encuentran ahí por lo que es necesario corregir todo lo necesario para volver a realizar el `commit``
 
 ¿Cómo puedo revertir un commit y traerlo al presente?
