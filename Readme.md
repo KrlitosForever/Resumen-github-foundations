@@ -152,6 +152,14 @@ git revert 964cca7
 git branch nombre-rama
 ```
 
+¿Cómo consultar todas las ramas incluidas las del remoto?
+
+```bash
+git branch --all
+# La forma corta sería
+git branch -a
+```
+
 ¿Cómo crear una rama y moverse a ella inmediatamente?
 
 ```bash
