@@ -142,8 +142,8 @@ git revert 964cca7
 >gitGraph
 >	commit
 >	commit
->	commit type: reverse
->	commit type: highlight
+>	commit type: REVERSE
+>	commit type: HIGHLIGHT
 >```
 
 ¿Cómo se crea una rama en git?
