@@ -226,3 +226,27 @@ git stash pop
 # Para eliminar el stash
 git stash drop
 ```
+
+## Submódulos
+
+### Inicializar el submódulo:
+
+```bash
+git submodule init
+```
+
+### Descargar los datos del submódulo
+
+Los submódulos no se descargan con el git pull, es necesario realizar este comando para traer los archivos al repositorio local. Para ello debes actualizarlo:
+
+```bash
+git submodule update
+```
+
+### Actualizar automáticamente todos los submódulos 
+
+Si prefieres que Git actualice todos los submódulos a los commits más recientes en el repositorio remoto (y no a los que están apuntados actualmente en tu proyecto), puedes utilizar el siguiente comando:
+
+```bash
+git submodule update --remote --merge
+```
